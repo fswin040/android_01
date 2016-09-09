@@ -1,13 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:htc="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:htc="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     htc:layout_width="match_parent"
     htc:layout_height="match_parent"
     htc:orientation="vertical"
     >
+<!--<Button-->
+    <!--htc:id="@+id/button"-->
+    <!--htc:layout_width="match_parent"-->
+    <!--htc:layout_height="wrap_content"-->
+    <!--htc:text="戳我"-->
+    <!--htc:onClick="click"-->
 
-    <TextView
-        htc:layout_width="wrap_content"
+    <!--/>-->
+    <!--<TextView-->
+        <!--htc:id="@+id/view"-->
+        <!--htc:layout_width="wrap_content"-->
+        <!--htc:layout_height="wrap_content"-->
+        <!--htc:text="Hello BItch!" />-->
+
+    <!--<LinearLayout-->
+        <!--htc:layout_width="match_parent"-->
+        <!--htc:layout_height="match_parent"-->
+        <!--htc:layout_weight="1"-->
+        <!--htc:background="#ff0"-->
+        <!--htc:orientation="horizontal"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--htc:layout_width="wrap_content"-->
+            <!--htc:layout_height="match_parent"-->
+            <!--htc:layout_weight="1"-->
+            <!--htc:text="white"-->
+            <!--htc:background="#fff"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--htc:layout_width="wrap_content"-->
+            <!--htc:layout_height="match_parent"-->
+            <!--lay htc:layout_weight="1"-->
+            <!--htc:text="green"-->
+            <!--htc:background="#0f0"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--htc:layout_width="wrap_content"-->
+            <!--htc:layout_height="match_parent"-->
+            <!--lay htc:layout_weight="1"-->
+            <!--htc:text="red"-->
+            <!--htc:background="#f00"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--htc:layout_width="wrap_content"-->
+            <!--htc:layout_height="match_parent"-->
+            <!--lay htc:layout_weight="1"-->
+            <!--htc:text="yellow"-->
+            <!--htc:background="#f0"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--htc:layout_width="match_parent"-->
+        <!--htc:layout_height="match_parent"-->
+        <!--htc:background="#000"-->
+        <!--htc:layout_weight="1"-->
+        <!--htc:orientation="horizontal"-->
+        <!--&gt;-->
+
+    <!--</LinearLayout>-->
+    <RelativeLayout
+        htc:id="@+id/ttop"
+        htc:layout_width="match_parent"
         htc:layout_height="wrap_content"
-        htc:text="Hello BItch!" />
+        >
+        <Button
+            htc:id="@+id/bt"
+            htc:layout_width="wrap_content"
+            htc:layout_height="wrap_content"
+            htc:text="enter"
+            htc:layout_alignParentRight="true"
+            />
+        <EditText
+            htc:id="@+id/ett"
+            htc:layout_width="match_parent"
+            htc:layout_height="wrap_content"
+            htc:layout_toLeftOf="@id/bt"
+            htc:layout_alignBottom="@id/bt"
+            htc:layout_alignTop="@id/bt"
+
+            />
+    </RelativeLayout>
+<LinearLayout
+    htc:id="@+id/downn"
+    htc:layout_width="match_parent"
+    htc:layout_height="wrap_content"
+    htc:layout_alignParentBottom="true"
+    htc:orientation="horizontal"
+    >
+
+    <Button
+        htc:layout_width="match_parent"
+        htc:layout_height="wrap_content"
+        htc:text="1"
+        htc:layout_weight="1"
+        htc:layout_alignParentRight="true"
+        />
+    <Button
+
+        htc:layout_width="match_parent"
+        htc:layout_height="wrap_content"
+        htc:layout_weight="1"
+        htc:text="2"
+        htc:layout_alignParentRight="true"
+        />
+    <Button
+        htc:layout_width="match_parent"
+        htc:layout_height="wrap_content"
+        htc:layout_weight="1"
+        htc:text="3"
+        htc:layout_alignParentRight="true"
+        />
+
 </LinearLayout>
+    <TextView
+        htc:id="@+id/loww"
+        htc:layout_width="match_parent"
+        htc:layout_height="match_parent"
+        htc:layout_below="@id/ttop"
+        htc:layout_above="@id/downn"
+        />
+
+</RelativeLayout>
