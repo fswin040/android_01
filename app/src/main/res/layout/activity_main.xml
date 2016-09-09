@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:htc="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    htc:layout_width="match_parent"
+    htc:layout_height="match_parent"
+    htc:orientation="vertical"
+    >
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        htc:layout_width="wrap_content"
+        htc:layout_height="wrap_content"
+        htc:text="Hello BItch!" />
 </LinearLayout>
